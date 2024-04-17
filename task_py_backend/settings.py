@@ -133,6 +133,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",
+    "http://**",
     "https://taskpy.up.railway.app"
 ]
 
@@ -141,5 +142,5 @@ STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 CSRF_TRUSTED_ORIGINS = [
     'http://**',
-    'https://task-py-backend.up.railway.app'
+    'https://taskpy-api.up.railway.app'
 ]
