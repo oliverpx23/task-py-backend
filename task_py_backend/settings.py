@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-)+566bf-c@bi(eyajkwh0i4b_%am(5+lub(9bk1!o-p%*^1nt!
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','task-py-backend.up.railway.app']
+ALLOWED_HOSTS = ['localhost','taskpy-api.up.railway.app']
 
 
 # Application definition
